@@ -1,0 +1,89 @@
+Use Case 1: Start Game 
+
+Precondition:
+N/A
+
+Stakeholder: 
+The player (End-User)
+
+Main Scenario:
+•	The game will start the moment the player initializes the game.
+•	The system will display the welcoming menu to the player with two option to choose “Play Game “and “Exit Game “.
+•	The player chooses the “Play Game “option.
+•	The system will convert the player to the next menu (UC 2: Play Game)
+
+Alternative Scenarios:
+The player chooses the “Exit game” option and the system will terminate. 
+
+
+
+
+
+Use Case 2: Play Game 
+
+Precondition:
+UC 1: (Start Game)
+
+Stakeholder: 
+The player (End-User)
+
+Main Scenario:
+•	The player will be trying to guess the correct word by entering possible letter.
+•       The system by default will provide the player with 6 number of tries.       
+•	The player will win the game followed by a congrats message " Well done you WIN :D" and the deserved score "|| your score is: ||".
+•       The correct word will be shown to the player "The  word is: ".
+•	The system will ask the player if he/she wants to play one more round or not "Would you like to play another round (yes/no) ? ".
+•	
+Alternative Scenarios:
+•	The Player will lose the game by guessing the wrong word.
+•       A complete Hangman figure will be displayed .
+•       The player will be shown a message stating “YOU LOSE” and the deserved score "|| your score is: 0||" 
+•       The correct word will be shown to the player "The  word is: ".
+•	The system will ask the player if he/she wants to play one more round or not "Would you like to play another round (yes/no) ? ".
+
+
+
+
+
+
+Use Case 3: Exit Game 
+
+Precondition:
+UC 2: Play game 
+
+Stakeholder: 
+The player (End-User)
+
+Main Scenario:
+•	The player will be trying to guess the correct word by entering possible letter.
+•	The player types “0”
+•	The system will display a message to the player stating “Are you sure you want to quit the game? (yes/no): “
+•	The player enters “yes” then the system will terminate the game. 
+Alternative Scenarios:
+•	The player will be trying to guess the correct word by entering possible letter.
+•	The player types “0”
+•	The system will display a message to the player stating “Are you sure you want to quit the game? (yes/no): “
+•	The player enters “no” 
+•	The player will continue playing the before the time he/she entered the “0” as an input. 
+
+
+Use Case 3.1: Exit Game 
+
+Precondition:
+UC 1: (Start Game) 
+
+Stakeholder: 
+The player (End-User)
+Main Scenario:
+•	The system will display the start menu of the game and ask the player either to “Play Game “or “Exit Game “
+•	The player selects the “Exit Game” option.
+•	The system will pop up a message for the Player stating “Do you want to leave the game? (yes/no):” 
+•	The player chooses “yes.” 
+•	The game will terminate. 
+
+Alternative Scenarios:
+•	The system will display the start menu of the game and ask the player either to “Play Game “or “Exit Game “
+•	The player selects the “Exit Game” option.
+•	The system will pop up a message for the Player stating “Do you want to leave the game? (yes/no):” 
+•	The player chooses “no” 
+•	The game will start by allowing the player to start guessing the mysterious word.

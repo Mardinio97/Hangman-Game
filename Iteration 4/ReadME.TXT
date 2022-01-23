@@ -1,0 +1,2 @@
+I have added a new feature in the code to enable the player to play one more round at the end of the game , In the privious src code the game restart option didn't used to exist.
+Moreover, I modified the seeScore method so it will display the final grade in percentage depends on how many misatkes were detected. 
